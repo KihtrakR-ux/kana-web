@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import Sidebar from "@repo/ui/Sidebar";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -22,8 +23,9 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <Sidebar children={undefined}/>
         <Button appName="docs" className={styles.secondary}>
-          Open alert
+          Open Docs 
         </Button>
       </main>
     </div>

@@ -15,7 +15,6 @@ export default function Home() {
             />
             Kana-Swap
           </div>
-          
         </div>
       </main>
     </div>
