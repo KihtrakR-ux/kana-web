@@ -25,7 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         <Sidebar children={undefined}/>
         <Button appName="docs" className={styles.secondary}>
-          Open Docs 
+          Swap 
         </Button>
       </main>
     </div>
